@@ -1,0 +1,14 @@
+identity:
+  author: Huang Yong
+  name: latexprocess
+  label:
+    en_US: Latex Process
+    zh_Hans: Latex 处理
+    pt_BR: Latex Process
+  description:
+    en_US: Tools for processing latex equation to image
+    zh_Hans: 利用latex codecogs 将latex输入转化为图片，或者识别latex公式图片成latex
+    pt_BR: Tools for processing JSON content using jsonpath_ng
+  icon: icon.svg
+  tags:
+    - utilities

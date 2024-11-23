@@ -1,0 +1,27 @@
+identity:
+  name: generate
+  author: Huang Yong
+  label:
+    en_US: Latex image Generation
+    zh_Hans: Latex图片生成
+    pt_BR: Latex image Generation
+description:
+  human:
+    en_US: A tool for generate image from latex string
+    zh_Hans: 一个latex字符串渲染成latex图片的工具
+    pt_BR: A tool for generate image from latex string
+  llm: A tool for generate image from latex string
+parameters:
+  - name: latex_string
+    type: string
+    required: true
+    label:
+      en_US: latex string
+      zh_Hans: latex字符串
+      pt_BR: latex string
+    human_description:
+      en_US: latex string
+      zh_Hans: latex字符串
+      pt_BR: latex string
+    llm_description: latex string to be processed
+    form: llm
